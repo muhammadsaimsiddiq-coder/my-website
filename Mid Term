@@ -1,1 +1,167 @@
-Mid Term/index.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Education Forever</title>
+</head>
+
+<body>
+   <div class="background"> 
+    <nav class="navbar">
+       
+        <ul class="navlist">
+            <div class="logo"><img src="./Images/img.jpg" alt="Logo"></div>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="./Courses.html">Courses</a></li>
+            <li><a href="./Register.html">Register</a></li>
+        </ul>
+
+        <div class="rightnav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+        <section class="firstsection">
+            <div class="boxmain">
+                <div class="firsthalf">
+                    <p class="textbig">Bright up your future with Education</p>
+                    <p class="textsmall">In the world where Technological Advancements are rapid, Everyone has to
+                        excel in Education to compete with the World, Due to need of the hour We are offering several IT courses for students worldwide in very affordable fees</p>
+                 <a href="https://youtube.com/@educationforever-8to10?si=YeISQJKUe6g_2JFa" target="_blank">
+                 Visit Our Youtube Channel</a>
+               
+               
+                </div>
+                <div class="secondhalf">
+                    <img src="./Images/img.jpg" alt="Ipad Image">
+                </div>
+            
+
+
+
+            </div>
+        </div>
+        </section>
+   
+</body>
+
+</html>
+Mid Term/style.css
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+ display: flex;
+}
+
+.logo{
+    width: 45%;
+   
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.logo img{
+    width: 40%;
+    border: 2px solid white;
+    border-radius: 50px; 
+    max-width: 100%;
+    height: auto;
+}
+.navlist{
+
+ display: flex; 
+align-items: center; 
+margin-left: 5px;
+}
+.navlist li{
+list-style: none;
+
+
+}
+.navlist li a{
+text-decoration: none;
+color: black;
+padding: 20px;
+width: 50%;
+font-size: 19px;
+margin-top: 4px;
+}
+.navlist li a:hover{
+    color: yellow;
+}
+.rightnav{
+    
+    text-align: right;
+    justify-content: right;
+    width: 50%;
+}
+.background{
+    background: rgba(0,0,0,0.6) url('../images/bkn.jpg');  
+    background blend-mode: darken;
+    max-width:100%;
+    height: auto;    
+    
+    
+    
+}
+#search{
+    margin: 5px;
+    padding: 4px 3px;
+    font-size: 18px;
+    margin-top: 8px;
+   
+    border-radius: 10px;
+    align-content: baseline;
+}
+.btn-sm{
+    margin-right: 0;
+    font-size: medium;  
+    padding: 5px;  
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 18px;
+    margin-right: 3px;
+}
+
+.firstsection{
+    height: 1000vh;
+}
+.boxmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:lavenderblush;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    max-width: 50%;
+    margin: auto;
+    height: 6%;
+
+}
+.firsthalf{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondhalf{
+    width: 30%;  
+}
+.secondhalf img{
+    border: 5px solid white;
+    border-radius: 250px;
+    max-width: 100%;
+    height: auto;
+}
+.firsthalf a{
+    color: blanchedalmond;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    margin-top: auto;
+    align-items: center;
+}
