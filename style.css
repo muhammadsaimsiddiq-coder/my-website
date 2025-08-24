@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+ display: flex;
+}
+
+.logo{
+    width: 45%;
+   
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.logo img{
+    width: 40%;
+    border: 2px solid white;
+    border-radius: 50px; 
+    max-width: 100%;
+    height: auto;
+}
+.navlist{
+
+ display: flex; 
+align-items: center; 
+margin-left: 5px;
+}
+.navlist li{
+list-style: none;
+
+
+}
+.navlist li a{
+text-decoration: none;
+color: black;
+padding: 20px;
+width: 50%;
+font-size: 19px;
+margin-top: 4px;
+}
+.navlist li a:hover{
+    color: yellow;
+}
+.rightnav{
+    
+    text-align: right;
+    justify-content: right;
+    width: 50%;
+}
+.background{
+    background: rgba(0,0,0,0.6) url('../images/bkn.jpg');  
+    background blend-mode: darken;
+    max-width:100%;
+    height: auto;    
+    
+    
+    
+}
+#search{
+    margin: 5px;
+    padding: 4px 3px;
+    font-size: 18px;
+    margin-top: 8px;
+   
+    border-radius: 10px;
+    align-content: baseline;
+}
+.btn-sm{
+    margin-right: 0;
+    font-size: medium;  
+    padding: 5px;  
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 18px;
+    margin-right: 3px;
+}
+
+.firstsection{
+    height: 1000vh;
+}
+.boxmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:lavenderblush;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    max-width: 50%;
+    margin: auto;
+    height: 6%;
+
+}
+.firsthalf{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondhalf{
+    width: 30%;  
+}
+.secondhalf img{
+    border: 5px solid white;
+    border-radius: 250px;
+    max-width: 100%;
+    height: auto;
+}
+.firsthalf a{
+    color: blanchedalmond;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    margin-top: auto;
+    align-items: center;
+}
