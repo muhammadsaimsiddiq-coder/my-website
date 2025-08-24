@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Application Form</title>
+</head>
+<body>
+
+<h1>Application Form</h1>
+
+<form>
+    <div>
+        <legend><b>A. General Questions</b></legend>
+        
+        <label for="Proposed Insured's Name">Proposed Insured's Name:</label><br>
+        <input type="text" id="Proposed Insured's Name" name="insured_name" required ><br><br>
+
+        <label for="Birth date">Birth Date:</label>
+        <input type="date" id="Birth date" name="birth_date" required>
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male" required> Male
+        <input type="radio" name="gender" value="female" required> Female<br><br>
+
+        <label for="Address">Address:</label><br>
+        <input type="text" id="Address" name="address" required><br><br>
+
+        <label for="Phone Number">Phone Number:</label>
+        <input type="text" id="Phone Number" name="phone" required>
+        <label for="Email Address">Email Address:</label>
+        <input type="email" id="Email Address" name="email" required><br><br>
+
+        <label for="ID Number">ID Number:</label>
+        <input type="text" id="ID Number" name="id_number"  minlength="4" required>
+        <label for="Social">Social Security Number:</label>
+        <input type="text" id="Social" name="ssn" required><br><br>
+
+        <label>Status:</label>
+        <input type="radio" name="status" value="single"> Single
+        <input type="radio" name="status" value="married"> Married
+        <input type="radio" name="status" value="divorced"> Divorced
+        <input type="radio" name="status" value="others"> Others<br><br>
+
+        <label for="Occupation">Occupation:</label>
+        <input type="text" id="Occupation" name="occupation"><br><br>
+
+        <label>Are you a retiree?</label>
+        <input type="radio" name="retiree" value="yes"> Yes
+        <input type="radio" name="retiree" value="no"> No
+    </div>
+    <br>
+    <div>
+        <legend><b> B. Type of Health Coverage:</b></legend>
+        <label>Employee:</label>
+        <input type="radio" name="Employee" value="yes">Yes
+        <input type="radio" name="Employee" value="no">No <br>
+        <label for="Plan">Plan Choice:</label>
+        <input type="text" id="Plan" name="employee plan"><br><br>
+        <label>Spouse:</label>
+        <input type="radio" name="spouse" value="yes">Yes
+        <input type="radio" name="spouse" value="no">No <br>
+        <label for="Plan Choice">Plan Choice:</label>
+        <input type="text" id="Plan Choice" name="spouse plan"><br><br>
+        <label>Children:</label>
+        <input type="radio" name="Children" value="yes">Yes
+        <input type="radio" name="Children" value="no">No <br>
+        <label for="choice">Plan Choice:</label>
+        <input type="text" id="choice" name="employee plan"><br>
+        <p>Complete if Spouse/Children are proposed for insurance</p>
+        <table border="1" cellpadding="5" cellspacing="0">
+         <tr>
+            <th>Name</th>
+            <th>SSN No.</th>
+            <th>Relationship to proposed insured</th>
+            <th>Birth Date</th>
+            <th>Age</th>
+            <th>Sex</th>
+         </tr>
+         <tr>
+            <td><input type="text" name="name1"></td>
+            <td><input type="text" name="ssn1"></td>
+            <td><input type="text" name="Relationship1"></td>
+            <td><input type="date" name="dob1"></td>
+            <td><input type="number" name="age1"></td>
+            <td><input type="text" name="sex1"></td>
+         </tr>
+          <tr>
+            <td><input type="text" name="name1"></td>
+            <td><input type="text" name="ssn1"></td>
+            <td><input type="text" name="Relationship1"></td>
+            <td><input type="date" name="dob1"></td>
+            <td><input type="number" name="age1"></td>
+            <td><input type="text" name="sex1"></td>
+         </tr>
+          <tr>
+            <td><input type="text" name="name1"></td>
+            <td><input type="text" name="ssn1"></td>
+            <td><input type="text" name="Relationship1"></td>
+            <td><input type="date" name="dob1"></td>
+            <td><input type="number" name="age1"></td>
+            <td><input type="text" name="sex1"></td>
+         </tr>
+          <tr>
+            <td><input type="text" name="name1"></td>
+            <td><input type="text" name="ssn1"></td>
+            <td><input type="text" name="Relationship1"></td>
+            <td><input type="date" name="dob1"></td>
+            <td><input type="number" name="age1"></td>
+            <td><input type="text" name="sex1"></td>
+         </tr>
+         </table>
+         <br>
+         <legend><b>C. The Policy:</b></legend><br>
+         <button type="submit"><b><h1>Submit</h1></b></button> 
+
+
+        
+
+    </div>
+
+    <form>
+</body>
+</html>
